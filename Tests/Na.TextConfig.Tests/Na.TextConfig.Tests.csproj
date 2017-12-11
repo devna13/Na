@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Na.TextConfig\Na.TextConfig.csproj" />
+    <ProjectReference Include="..\..\Src\Na.TextConfig\Na.TextConfig.csproj" />
   </ItemGroup>
 
 </Project>

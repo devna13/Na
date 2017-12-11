@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Na.Extentions</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>NA</Authors>
+    <Description>.Net Extentions</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Copyright>Copyright 2017. All rights reserved.</Copyright>
+    <PackageTags></PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/devna13/Na</RepositoryUrl>
+    <Version></Version>
+    <Product>Na.Extentions</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\Na.Extentions.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

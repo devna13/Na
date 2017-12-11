@@ -2,23 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Na.Extentions</PackageId>
+    <PackageId>Na.ConsoleHelper</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>NA</Authors>
-    <Description>My .Net Extentions</Description>
+    <Description>Console helper</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes></PackageReleaseNotes>
     <Copyright>Copyright 2017. All rights reserved.</Copyright>
-    <PackageTags>Extentions</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags></PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageProjectUrl></PackageProjectUrl>
-    <RepositoryUrl>https://github.com/devna13/Na.Extentions</RepositoryUrl>
-    <Version>1.0.0</Version>
-    <Product>Na.Extentions</Product>
+    <RepositoryUrl>https://github.com/devna13/Na</RepositoryUrl>
+    <Version></Version>
+    <Product>Na.ConsoleHelper</Product>
   </PropertyGroup>
-
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netcoreapp2.0\Na.Extentions.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\Na.ConsoleHelper.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>

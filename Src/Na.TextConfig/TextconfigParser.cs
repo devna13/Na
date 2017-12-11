@@ -28,14 +28,14 @@ namespace Na.TextConfig
 
             var dic = new Dictionary<String, object>();
             string lastKey = String.Empty;
-            
+
             keyValueSplitter = keyValueSplitter ?? DefaultKeyValueSplitter;
 
             foreach (var row in lines)
             {
                 if (row.Contains(DefaultKeyValueSplitter))
                 {
-                    var splited = row.Split(DefaultKeyValueSplitter);
+                    var splited = row.Split(new[] { DefaultKeyValueSplitter }, StringSplitOptions.RemoveEmptyEntries);
 
                     string key = splited[0].Trim();
                     string value = splited[1].Trim();

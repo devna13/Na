@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Na.TextConfig</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>NA</Authors>
+    <Description>Simple text file base key value parser</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <Copyright>Copyright 2017. All rights reserved.</Copyright>
+    <PackageTags></PackageTags>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/devna13/Na</RepositoryUrl>
+    <Version></Version>
+    <Product>Na.TextConfig</Product>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Na.TextConfig.xml</DocumentationFile>
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <PackageReference Include="Na.Extentions" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
