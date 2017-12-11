@@ -1,0 +1,5 @@
+﻿SettingA | 
+SettingB | 
+DeleteVideosAfterConversions | true
+OpenMp3OutputDirectoryWhenCompleted | true
+Urls |
